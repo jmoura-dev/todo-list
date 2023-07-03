@@ -1,0 +1,54 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+}
+
+.check {
+  color: var(--blue);
+  background: transparent;
+  border: none;
+  border-radius: 99%;
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+  padding: 0.1rem;
+}
+
+.check:hover {
+  cursor: pointer;
+  color: var(--blue-dark);
+}
+
+.text {
+  width: 100%;
+  font-size: 1.2rem;
+  color: var(--gray-100);
+  background: transparent;
+  border: none;
+  resize: none;
+
+  outline: none;
+}
+
+.delete {
+  color: var(--gray-300);
+  background: transparent;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+  font-size: 1.6rem;
+  padding: 0.1rem;
+}
+
+.delete:hover {
+  cursor: pointer;
+  color: var(--danger);
+  background: var(--gray-400);
+  border-radius: 0.25rem;
+}
