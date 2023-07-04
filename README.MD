@@ -25,3 +25,7 @@
 ## Application link
 
 - https://jmouradevtodo-list.netlify.app/
+
+## Page
+
+![Captura de tela 2023-07-04 185341](https://github.com/jmoura-dev/todo-list/assets/72841857/e9febc45-b527-45f9-ab04-d2a38ea1b550)
