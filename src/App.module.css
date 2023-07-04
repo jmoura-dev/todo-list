@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
 
-  max-width: 47.2rem;
+  max-width: 50rem;
   width: 100%;
   margin: 4rem auto 0;
 }
@@ -59,21 +59,24 @@
     background: var(--gray-400);
 
     padding: 0.15rem 0.5rem;
-    border-radius: 50%;
+    border-radius: 8px;
   }
 }
 
 .content {
-  max-width: 47.2rem;
+  max-width: 50rem;
   margin: 1.7rem auto;
 }
 
+.content ul {
+  gap: 2rem;
+}
+
 .content:disabled {
-  max-width: 47.2rem;
+  max-width: 50rem;
   margin: 1.7rem auto;
   padding: 4rem 1.5rem;
 
   border-radius: 0.5rem;
   border-top: 1px solid var(--gray-400);
-
 }

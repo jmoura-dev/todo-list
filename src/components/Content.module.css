@@ -7,6 +7,20 @@
   background: var(--gray-500);
   border: 1px solid var(--gray-400);
   border-radius: 0.5rem;
+
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--purple);
+    border-radius: 1rem;
+    height: 1rem;
+  }
+}
+
+.content + .content {
+  margin-top: 1.2rem;
 }
 
 .check {
@@ -14,7 +28,7 @@
   background: transparent;
   border: none;
   border-radius: 99%;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-right: 0.75rem;
   padding: 0.1rem;
 }
@@ -35,6 +49,11 @@
   outline: none;
 }
 
+.text:disabled {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
 .delete {
   color: var(--gray-300);
   background: transparent;
@@ -51,4 +70,12 @@
   color: var(--danger);
   background: var(--gray-400);
   border-radius: 0.25rem;
+}
+
+.concluded {
+  color: var(--purple);
+}
+
+.concluded:hover {
+  color: var(--purple-dark);
 }
